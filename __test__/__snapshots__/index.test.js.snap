@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`main 1`] = `
+"class Foo {
+  // __SYNCED__
+  async bar() {
+    await bar();
+    await this.bar();
+  }
+
+  barSync() {
+    barSync();
+    this.barSync();
+  }
+
+}"
+`;
+
+exports[`manually 1`] = `
+"class Foo {
+  // __SYNCED__
+
+  /**
+   * jsdoc
+   *
+   */
+  async bar() {
+    return this.bar(); // $MakeMeSync
+  }
+
+  barSync() {
+    return this.barSync();
+  } // trailing
+
+
+}"
+`;
