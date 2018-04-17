@@ -59,6 +59,10 @@ class Foo {
 }
 ```
 
+## Used By
+
+- [JoyCon](https://github.com/egoist/joycon)
+
 ## Contributing
 
 1. Fork it!
