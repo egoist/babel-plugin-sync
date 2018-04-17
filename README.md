@@ -47,7 +47,7 @@ class MyModule {
 
 ### Make returnStatement sync
 
-We don't know if it's safe to make the return statement sync at all, if you're sure about this, use `// $MakeMeSync` mark explicitly.
+We don't know if it's safe to make the return statement sync at all, you can use the `await` keyword or `// $MakeMeSync` explicitly.
 
 ```diff
 class Foo {
