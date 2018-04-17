@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-sync",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "async to sync, and maybe vice versa",
   "repository": {
     "url": "egoist/babel-plugin-sync",
@@ -24,6 +24,8 @@
   },
   "xo": {
     "extends": "rem",
-    "envs": ["jest"]
+    "envs": [
+      "jest"
+    ]
   }
 }
